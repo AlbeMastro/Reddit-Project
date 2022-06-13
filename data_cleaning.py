@@ -13,7 +13,7 @@ regexp = RegexpTokenizer('\w+')
 snowball = SnowballStemmer(language='english')
 
 
-df = pd.read_csv('/Users/Alberto/PycharmProjects/00302_mastromarino/total_period.csv')
+df = pd.read_csv('/Users/Alberto/PycharmProjects/total_period.csv')
 
 print(f'Inizialmente il dataframe è composto da {df.shape} (righe/colonne)')
 
