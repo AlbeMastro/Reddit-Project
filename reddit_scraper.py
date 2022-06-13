@@ -50,7 +50,7 @@ class Reddit_Scraper(object):
             df = df[['author', 'date', 'title', 'selftext', 'score', 'num_comments']]
             print(df.head())
             print(df.shape)
-            # df.to_csv('/Users/Alberto/PycharmProjects/00302_mastromarino/reddit_post.csv', index= False)
+            df.to_csv('/Users/Alberto/PycharmProjects/reddit_post.csv', index= False)
 
         except Exception as e:
             print("Unexpected error")
