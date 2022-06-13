@@ -44,7 +44,7 @@ class Finance(object):
             plot = info_stock.plot(kind= 'line', figsize= (12,12))
             subplot = info_stock.plot(kind='line',figsize=(12,12), subplots=True)
             plt.show()
-            df.to_csv('/Users/Alberto/PycharmProjects/00302_mastromarino/info_stocks.csv',
+            df.to_csv('/Users/Alberto/PycharmProjects/info_stocks.csv',
                       columns=['Date', 'Open', 'High', 'Low', 'Close', 'Volume'], index=False)
 
         except Exception as e:
